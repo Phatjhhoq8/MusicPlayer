@@ -1,0 +1,46 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Roi Toi Luon",
+      "singer": "Nal",
+      "imgUrl": "./images/roi-toi-luon.jpeg",
+      "audioSrc": "./audio/roi-toi-luon.mp3"
+    },
+    {
+      "id": 2,
+      "title": "Thien Dang",
+      "singer": "Wowwy & Jolipoli",
+      "imgUrl": "./images/thien-dang.jpeg",
+      "audioSrc": "./audio/thien-dang.mp3"
+    },
+    {
+      "id": 3,
+      "title": "Hoa Hai Duong",
+      "singer": "Jack",
+      "imgUrl": "./images/hoa-hai-duong.jpeg",
+      "audioSrc": "./audio/hoa-hai-duong.mp3"
+    },
+    {
+      "id": 4,
+      "title": "Sau Hong Gai",
+      "singer": "G5R Squad",
+      "imgUrl": "./images/sau-hong-gai.jpeg",
+      "audioSrc": "./audio/sau-hong-gai.mp3"
+    },
+    {
+      "title": "Luu ly",
+      "singer": "DT",
+      "imgUrl": "./images/hoa-hai-duong.jpeg",
+      "audioSrc": "./audio/luuly.mp3",
+      "id": 6
+    },
+    {
+      "title": "Múa Flo",
+      "singer": "vvv",
+      "imgUrl": "https://cdn.tgdd.vn/2020/12/campaign/huong-dan-choi-florentino-mua-14-bang-ngoc-phu-hieu-va-cach-choi-thumb640-640x360.jpg",
+      "audioSrc": "./audio/flo.mp3",
+      "id": 7
+    }
+  ]
+}

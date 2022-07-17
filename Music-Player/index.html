@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="player">
+        <!-- Dashboard -->
+        <div class="dashboard">
+            <!-- Header -->
+            <header>
+                <h3>Add New Song +</h3>
+                <h2>Name Song</h2>
+            </header>
+
+            <!-- CD -->
+            <div class="cd">
+                <div class="cd-thumb" style="background-image: url('./images/roi-toi-luon.jpeg')"></div>
+            </div>
+
+            <!-- Control -->
+            <div class="control">
+                <div class="btn btn-repeat">
+                    <i class="fas fa-redo"></i>
+                </div>
+                <div class="btn btn-prev">
+                    <i class="fas fa-step-backward"></i>
+                </div>
+                <div class="btn btn-toggle-play">
+                    <i class="fas fa-pause icon-pause"></i>
+                    <i class="fas fa-play icon-play"></i>
+                </div>
+                <div class="btn btn-next">
+                    <i class="fas fa-step-forward"></i>
+                </div>
+                <div class="btn btn-random">
+                    <i class="fas fa-random"></i>
+                </div>
+            </div>
+
+            <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100" />
+
+            <audio id="audio" src=""></audio>
+        </div>
+
+        <!-- Playlist -->
+        <div class="playlist"></div>
+    </div>
+    <div class="parent">
+        <div class="modal"></div>
+        <div class="box">
+            <div class="icon-x">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="container">
+                <label for="name"> Name Song</label>
+                <input type="text" id="name" name="nameSong" placeholder="Enter Name Song.." />
+
+                <label for="singer">Name Singer</label>
+                <input type="text" id="singer" name="singer" placeholder="Enter Name Singer.." />
+                <label for="image">Image address</label>
+                <input type="text" id="image" name="image" placeholder="Url Image.." />
+
+                <label for="audio">Audio</label>
+                <input type="text" id="audioAdd" name="audioAdd" placeholder="AudioSrc.." />
+
+                <input id="submit" type="submit" value="Submit" />
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
